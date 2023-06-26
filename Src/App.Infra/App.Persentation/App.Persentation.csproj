@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\App.Core\App.Domain\App.Domain.csproj" />
+    <ProjectReference Include="..\..\App.Core\App.Services.Abstractions\App.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\..\App.Core\App.Services\App.Services.csproj" />
+    <ProjectReference Include="..\App.Persistence\App.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
